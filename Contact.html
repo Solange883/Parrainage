@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contact.css">
+    <title>Candidats</title>
+    <script src="Contact.js"></script>
+</head>
+<body>
+
+    <h1>Contactez-Nous</h1>
+       <p>Nous aimerions répondre a vos questions et vous aidez.N'hésitez pas a nous contacter.</p>
+    <div class="container">
+        <div class="boite ">
+
+           <div class="boiteagauche"><h3 class="titre">Envoyez votre requete</h3>
+             <form action="" method="post" onsubmit="envoie()">
+               <div class="ligne1">
+                 <div class="c1">
+                    <label>Nom</label><br>
+                    <input type="text" name="nom" id="nom" >
+                 </div>
+                 <div class="c1">
+                    <label>Téléphone</label><br>
+                    <input type="text" name="tel" id="tel">
+                 </div>
+                </div>
+
+                 <div class="ligne1">
+                   <div class="c2">
+                    <label>Email</label><br>
+                    <input type="text" id="email" required >
+                   </div>
+                </div>
+
+
+                 <label>Message</label>
+                 <br>
+                 <textarea rows="5" placeholder="Votre message..."></textarea><br>
+                 <br>
+                 <input type="submit" value=" Envoyer" class="btn" onclick="envoie()">
+                </div>
+             </form>
+         </div>
+            
+
+               <div class="boiteadroite">
+                 <h3 class="titre1">Nous joindre</h3>
+
+                 <table>
+                      <tr>
+                        <td>Direction Générale des Elections</td>
+                      </tr>
+                      <tr>
+                          <td>Email</td>
+                          <td>secdge@gmail.com </td>
+                      </tr>
+                      <tr>
+                        <td>Téléphone</td>
+                        <td>+221 33 889 41 50 </td>
+                      </tr>
+                      <tr>
+                        <td>Adresse</td>
+                        <td>Avenue Malick Sy X Rue 6 </td>
+                      </tr>
+                      
+
+                      <tr>
+                        <td >Commission Electorale Nationale automne</td>
+                      </tr>
+                      <tr>
+                        <td>Email</td>
+                        <td>cena@cena.sn </td>
+                    </tr>
+                    <tr>
+                      <td>Téléphone</td>
+                      <td>+221 33 889 66 00  </td>
+                    </tr>
+                    <tr>
+                      <td>Adresse</td>
+                      <td>Immeuble Fonds de Garantie Automobile Avenue Malick SY x Impasse COSEC</td>
+                    </tr>
+
+
+                 </table>
+                </div>
+         </div>
+          
+    </div>
+
+    
+    
+
+
+
+</body>
+
+
+
+
+</html>

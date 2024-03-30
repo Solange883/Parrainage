@@ -1,0 +1,119 @@
+.barre{
+    background: #444;
+    width: 90px; 
+    height: 5px;
+    border-radius:2px ;
+    margin-left: 569px;
+    
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 430px;
+}
+h3{
+    margin: 0px;
+    text-decoration: underline;
+    text-shadow: #444;
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+
+
+
+.formulaire {
+   width: 70%;
+   height: 100%;
+   padding: 20px;
+   border-radius: 25px;
+   margin: 1px auto;
+   display:grid; 
+   grid-template-rows: auto auto;
+   grid-column-gap:70px ;
+   box-shadow: inset 0 0 25px rgba(0,0,0.2); 
+}
+
+ h2{
+    margin-top: 15px;
+    text-align: center;
+    text-decoration:underline #888;
+    text-shadow: 2px 0px 0 beige;
+    text-transform: uppercase;
+}
+
+.label{
+    font-size: 18px;
+}
+.star{
+   color: red;
+   font-size: 19px;
+   margin-left:3px;
+   font-weight: bold;
+}
+
+.form1{
+    padding-top: 18px;
+    padding-left: 15px;
+    grid-row-start:1; 
+    grid-column-start: 1;
+}
+
+.form2{
+    padding-top: 18px;
+    padding-right: 1px;
+    grid-row-start:1; 
+    grid-column-start: 2;
+}
+
+
+.input{
+   width: 50%; 
+   height:30px ;
+   outline: none;
+   border-radius: 6px;
+   border:1px solid #e6e6e6;
+   font-weight:bold ;
+}
+
+.input:hover{
+    border:2px solid #235a81;
+    font-weight: bold;
+}
+
+.button input{
+    width: 35%;
+    height: 32px;
+    margin-left: 250px;
+    background: red;
+    color: black;
+    font-size: 17px;
+    border-color: beige;
+    border-radius: 13px;
+   
+  
+}
+.button input:hover{
+    background: beige;
+
+    
+}   
+button{
+    
+    width: 140px;
+    background-color: red;
+    border-radius:10px ;
+    border-color: beige;
+}
+button a{
+    text-decoration: none;
+    color:black;
+    font-size: 19px;
+    font-style: bold;
+}
+ 
+
+
+
+     
